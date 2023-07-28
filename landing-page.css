@@ -1,0 +1,89 @@
+body {
+background-color: rgb(22, 70, 125);
+padding: 0;
+margin: 0;
+text-align: center;
+font-family: 'Open Sans';
+color: ivory;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.braves-nav{
+    display: flex;
+    color: ivory;
+    background-color: rgb(22, 70, 125);
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-logo img {
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+}
+.header-link {
+    display: flex;
+    margin: left;
+    padding: 0px 100px 0px 0px;
+}
+.header-link a {
+    text-decoration: none;
+    color: ivory;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+.braves-info {
+    display: flex;
+    background-color: rgb(22, 70, 125);
+    align-items: center;
+    justify-content: center;
+    padding: 90px
+}
+.braves-content{
+    background-color: ivory;
+    color: rgb(22, 70, 125);
+}
+.content-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+    font-size: 18px;
+    gap: 40px;
+    background-color: ivory;
+    color: rgb(22, 70, 125);
+    flex-basis: 50px;
+}
+.content-info img {
+    width: 250px;
+    height: 200px;
+}
+.braves-quote {
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 18px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: ivory;
+}
+.braves-footer{
+    font-size: 14px;
+    color: ivory;
+    font-weight: lighter;
+}
+.sign-button button{
+    background-color: ivory;
+    font-size: 16px;
+}
